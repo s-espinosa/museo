@@ -21,7 +21,7 @@ In this repository we have an existing Museum and Artist class, and the beginnin
 > require './lib/photograph'
 # => true
 
-> photograph = Photograph.new({name: "Rue Mouffetard, Paris (Boy with Bottles)", artist_id: 4, museum_id: 2, year: 1954})
+> photograph = Photograph.new({id: 1, name: "Rue Mouffetard, Paris (Boy with Bottles)", artist_id: 4, museum_id: 2, year: 1954})
 # => #<Photograph:0x007f98a9c6ace8 ...>
 
 > photograph.id
@@ -34,7 +34,7 @@ In this repository we have an existing Museum and Artist class, and the beginnin
 # => 2
 
 > photograph.name
-# => "Rue Moffetard, Paris (Boy with Bottles)"
+# => "Rue Mouffetard, Paris (Boy with Bottles)"
 
 > photograph.year
 # => 1954
